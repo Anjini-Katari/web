@@ -1,3 +1,37 @@
-p {
-    color: black
-  }
+html {
+    background-color: lightslategray;
+    color: black;
+    font-family: Courier;
+    border: solid;
+    border-width: thick;
+    border-image: url(https://i.pinimg.com/originals/04/a9/fa/04a9fa549753628188993c0b9b2e5ae3.png);
+    border-image-slice: fill;
+    border-image-width: 2cm;
+}
+#title {
+    font-family: Courier;
+    text-align: center;
+}
+
+h5 {
+    font-style: italic;
+    text-align: center;
+}
+#showcase {
+    text-align: center;
+}
+
+#music {
+   text-align: center;
+}
+
+a {
+    color:darkslategray
+}
+
+img {
+    width: 30%;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;    
+}
