@@ -1,20 +1,26 @@
-html {
-    background-color: lightslategray;
-    color: black;
-    font-family: Courier;
-    border: solid;
+/*
+Team Stuylin' (Anjini and Jorge)
+IntroCS pd2 sec2
+HW05 -- Stuylin'
+2021-02-24
+*/
+
+html { /*tells everything under the html tag to do the following things*/
+    background-color: lightslategray; 
+    color: black; /* text color*/
+    font-family: Courier; /* typewriterish font*/
+    border: solid; /* creates a border */
     border-width: thick;
-    border-image: url(https://i.pinimg.com/originals/04/a9/fa/04a9fa549753628188993c0b9b2e5ae3.png);
+    border-image: url(https://i.pinimg.com/originals/04/a9/fa/04a9fa549753628188993c0b9b2e5ae3.png); /* used an image for a border (one image */
     border-image-slice: fill;
-    border-image-width: 2cm;
+    border-image-width: 2cm; /* adjusts size of the image*/
 }
 #title {
-    font-family: Courier;
-    text-align: center;
+    text-align: center; /* makes text the center of the page*/
 }
 
 h5 {
-    font-style: italic;
+    font-style: italic; /* italicizes text*/
     text-align: center;
 }
 #showcase {
@@ -26,12 +32,12 @@ h5 {
 }
 
 a {
-    color:darkslategray
+    color:darkslategray /* changes color of the text that has the link embedded in it*/
 }
 
 img {
-    width: 30%;
-    display: block;
+    width: 30%; /* makes image smaller*/
+    display: block;         /* this and next 2 lines make image in center of page*/
     margin-left:auto;
     margin-right: auto;    
 }
